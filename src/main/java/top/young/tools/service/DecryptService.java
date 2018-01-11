@@ -54,7 +54,7 @@ public class DecryptService {
 
             File out = new File("out.txt");
             out.createNewFile();
-            OutputStreamWriter streamWriter = new OutputStreamWriter(new FileOutputStream(out));
+            OutputStreamWriter streamWriter = new OutputStreamWriter(new FileOutputStream(out),"UTF-8");
             writer = new BufferedWriter(streamWriter);
             for (String tmp : deList){
                 writer.write(tmp);
