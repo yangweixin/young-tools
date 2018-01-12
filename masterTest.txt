@@ -1,6 +1,0 @@
-this is first commit
-modify file
-master seconde modify
-master third modify
-master forth modify
-
